@@ -54,7 +54,7 @@ namespace AspNetIdentity.WebApi.Controllers
             {
                 return Ok(this.TheModelFactory.Create(user));
             }
-
+            //Merhaba Nasılsın
             return NotFound();
 
         }
